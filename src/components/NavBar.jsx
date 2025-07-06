@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark w-100">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark w-100 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">
             AKINLEMIBOLA'S
