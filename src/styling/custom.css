@@ -58,3 +58,10 @@ body {
   background-color: white;
   color: var(--secondary-color);
 }
+
+.about-head {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  padding-bottom: 30px;
+  font-weight: 700;
+}

@@ -5,6 +5,7 @@ import "./bootstrap.bundle.js";
 import "./bootstrap.css";
 import TreeChart from "./pages/FamilyTree.jsx";
 import "./styling/FamilyTree.css";
+import Lineage from "./pages/Lineage.jsx";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/tree" element={<TreeChart />} />
           {/* Add more routes as needed */}
-          {/* <Route path="/lineage" element={<Lineage />} /> */}
+          <Route path="/lineage" element={<Lineage />} />
           {/* <Route path="/about" element={<About />} /> */}
           {/* Add a default route for 404 Not Found */}
         </Routes>
