@@ -20,10 +20,11 @@ body {
   position: relative;
   z-index: 1;
   display: flex;
-  padding-top: 200px;
+  align-items: center;
 
   justify-content: center;
   color: var(--secondary-color);
+  flex-direction: column;
 }
 
 .hero-section::before {
@@ -33,6 +34,27 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(30, 42, 56, 0.5);
+  background-color: rgba(17, 22, 27, 0.678);
   z-index: -1;
+}
+
+.hero-head {
+  font-size: 3.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero-head {
+    font-size: 2rem;
+  }
+}
+
+.tree-btn {
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.tree-btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
 }
