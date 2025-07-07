@@ -76,6 +76,17 @@ body {
   text-align: center;
 }
 
+.profileBtn2 {
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0 10px;
+}
+
 .slider-container {
   background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg");
   display: flex;

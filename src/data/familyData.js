@@ -8,6 +8,7 @@ export const familyMembers = [
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+
     dob: "1970-04-15",
 
     children: ["Tom", "Grace"],

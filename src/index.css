@@ -1,3 +1,13 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.details-text {
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .details-text {
+    padding-top: 30px;
+  }
+}
