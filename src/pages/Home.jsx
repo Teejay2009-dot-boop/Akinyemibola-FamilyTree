@@ -1,5 +1,6 @@
 import Navbar from "../components/NavBar";
 import Hero from "../components/hero";
+import ImageSlider from "../components/SliderComponent";
 
 function Home() {
   return (
@@ -47,6 +48,11 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="py-5">
+        <h2 className="text-center ">Family Moments</h2>
+        <ImageSlider />
       </section>
     </>
   );

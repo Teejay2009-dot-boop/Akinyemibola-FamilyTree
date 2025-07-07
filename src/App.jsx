@@ -7,8 +7,6 @@ import TreeChart from "./pages/FamilyTree.jsx";
 import "./styling/FamilyTree.css";
 import Lineage from "./pages/Lineage.jsx";
 import Profiles from "./pages/Profiles.jsx";
-import Person from "./pages/Person.jsx";
-import MemberProfile from "./pages/Person.jsx";
 
 function App() {
   return (
@@ -20,10 +18,11 @@ function App() {
           {/* Add more routes as needed */}
           <Route path="/lineage" element={<Lineage />} />
           <Route path="/profiles" element={<Profiles />} />
-          <Route path="/profiles/person" element={<Person></Person>}></Route>
-          {/* Add a default route for 404 Not Found */}
 
-          <Route path="/member/:id" element={<MemberProfile />} />
+          {/* Add a route for profile details */}
+          <Route path="*" element={<div>404 Not Found</div>} />
+
+          {/* Add a default route for 404 Not Found */}
         </Routes>
       </Router>
     </>

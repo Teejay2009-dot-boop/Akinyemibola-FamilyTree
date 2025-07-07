@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { familyMembers } from "../data/familyData";
+import { familyMembers } from "../data/familyData.js"; // Importing family members data from the data file
 // Importing family members data from the data file
 import ProfileCard from "../components/ProfileStructure";
 

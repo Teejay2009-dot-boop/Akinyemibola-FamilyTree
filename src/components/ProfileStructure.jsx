@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-function ProfileCard({ image, role, generation, name, gender }) {
+import Profiles from "../pages/Profiles";
+function ProfileCard({ image, role, generation, name, gender, id }) {
   return (
     <div className="profile-card">
       <img src={image} alt="Profile" style={{ width: "100%" }} />
@@ -17,7 +18,12 @@ function ProfileCard({ image, role, generation, name, gender }) {
         {gender}
       </p>
       <button className="profileBtn">
-        <Link to="/" className="profileBtn" style={{ textDecoration: "none" }}>
+        <Link
+          to={`/profiles`} // Use the id to link to the profile details
+          element={<Profiles />}
+          className="profileBtn"
+          style={{ textDecoration: "none" }}
+        >
           View Profile
         </Link>
       </button>
