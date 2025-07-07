@@ -85,6 +85,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 0 10px;
+  margin-bottom: 20px;
 }
 
 .slider-container {
@@ -116,4 +117,20 @@ body {
   cursor: pointer;
 
   transform: translateY(0);
+}
+
+.notFoundBtn {
+  background-color: var(--secondary-color);
+  border: none;
+  color: white;
+}
+
+.notFoundBtn:hover {
+  background-color: hsl(36, 45%, 48%);
+  color: white;
+}
+
+.notFoundBtn:active {
+  background-color: hsl(36, 45%, 40%);
+  color: white;
 }

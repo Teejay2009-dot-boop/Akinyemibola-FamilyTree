@@ -11,3 +11,9 @@
     padding-top: 30px;
   }
 }
+
+@media (max-width: 996px) {
+  .details-paragraph {
+    font-size: 10px;
+  }
+}

@@ -8,6 +8,7 @@ import "./styling/FamilyTree.css";
 import Lineage from "./pages/Lineage.jsx";
 import Profiles from "./pages/Profiles.jsx";
 import PersonDetails from "./pages/ProfileDetails.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/profiles/:id" element={<PersonDetails />} />
 
           {/* Add a route for profile details */}
-          <Route path="*" element={<div>404 Not Found</div>} />
+          <Route path="*" element={<NotFoundPage />} />
 
           {/* Add a default route for 404 Not Found */}
         </Routes>

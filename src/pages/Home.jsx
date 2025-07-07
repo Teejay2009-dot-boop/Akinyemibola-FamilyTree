@@ -1,6 +1,7 @@
 import Navbar from "../components/NavBar";
 import Hero from "../components/hero";
 import ImageSlider from "../components/SliderComponent";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -54,6 +55,8 @@ function Home() {
         <h2 className="text-center ">Family Moments</h2>
         <ImageSlider />
       </section>
+
+      <Footer />
     </>
   );
 }

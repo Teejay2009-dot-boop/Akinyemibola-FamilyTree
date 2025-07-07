@@ -12,7 +12,20 @@ export default function PersonDetails() {
     return (
       <>
         <Navbar />
-        <div className="text-center py-5">Person not found</div>;
+        <div className="d-flex justify-content-center align-items-center vh-100 bg-light text-center p-4">
+          <div>
+            <h1 className="display-4 text-danger">Person Not Found</h1>
+            <p className="fs-5 text-muted">
+              😢 Sorry, we couldn't find the family member you're looking for.
+            </p>
+            <p className="mb-4">
+              The profile may have been removed or the link is incorrect.
+            </p>
+            <Link to="/profiles" className=" btn profileBtn2 px-4 py-2">
+              🔙 Back to Family Members
+            </Link>
+          </div>
+        </div>
       </>
     );
   }
@@ -37,20 +50,20 @@ export default function PersonDetails() {
             <div className="col-lg-6">
               <div className="container details-text">
                 <h2>{person.name}</h2>
-                <p className="fs-5">
+                <p className="fs-5 details-paragraph">
                   <strong>Gender:</strong> {person.gender}
                 </p>
-                <p className="fs-5">
+                <p className="fs-5 details-paragraph">
                   <strong>Date of Birth:</strong> {person.dob}
                 </p>
-                <p className="fs-5">
+                <p className="fs-5 details-paragraph">
                   <strong>Short Bio:</strong> {person.bio}
                 </p>
-                <p className="fs-5">
+                <p className="fs-5 details-paragraph">
                   <strong>Children:</strong>{" "}
                   {person.children?.join(", ") || "None"}
                 </p>
-                <p className="fs-5">
+                <p className="fs-5 details-paragraph">
                   <strong>Siblings:</strong>{" "}
                   {person.siblings?.join(", ") || "None"}
                 </p>
@@ -60,7 +73,7 @@ export default function PersonDetails() {
                 <button className="profileBtn2">
                   <Link
                     to="/profiles"
-                    className="profileBtn2"
+                    className="profileBtn2 mb-3"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Back to Profiles
