@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="text-center">
           <small>
-            © {new Date().getFullYear()} Akinyemibola Family. Built with ❤️ by
+            © {new Date().getFullYear()} Akinlemibola Family. Built with ❤️ by
             Teejay. All rights reserved.
           </small>
         </div>
