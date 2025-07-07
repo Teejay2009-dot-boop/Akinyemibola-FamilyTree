@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Profiles from "../pages/Profiles";
+import PersonDetails from "../pages/ProfileDetails";
 function ProfileCard({ image, role, generation, name, gender, id }) {
   return (
     <div className="profile-card">
@@ -19,7 +20,7 @@ function ProfileCard({ image, role, generation, name, gender, id }) {
       </p>
       <button className="profileBtn">
         <Link
-          to={`/profiles`} // Use the id to link to the profile details
+          to={`/profiles/${id}`} // Use the id to link to the profile details
           element={<Profiles />}
           className="profileBtn"
           style={{ textDecoration: "none" }}

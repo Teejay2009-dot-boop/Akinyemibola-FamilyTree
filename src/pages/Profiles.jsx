@@ -79,6 +79,7 @@ function Profiles() {
                   gender={member.gender}
                   role={member.role}
                   generation={member.generation}
+                  id={member.id} // Pass the id for routing
                 ></ProfileCard>
               </div>
             ))
