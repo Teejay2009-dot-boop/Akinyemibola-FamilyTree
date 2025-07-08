@@ -3,98 +3,91 @@ import Slider from "react-slick";
 import ProfileCard from "./ProfileStructure";
 
 const images = [
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  //   "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-
   {
     id: 1,
-    name: "Akinlemibola Ade",
+    name: "James Igbekoyi",
     generation: "3rd",
     role: "Father",
     gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
+
   {
     id: 2,
-    name: "Akinlemibola Bola",
+    name: "Joseph Olaniyi- cheif Baipe ",
     generation: "2nd",
     role: "Grandmother",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
   {
     id: 3,
-    name: "Akinlemibola Taiwo",
+    name: "John Oladele",
     generation: "4th",
     role: "Child",
     gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
   {
     id: 4,
-    name: "Akinlemibola Kehinde",
+    name: "Jeremiah Oladiran",
     generation: "4th",
     role: "Child",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
   {
     id: 5,
-    name: "Akinlemibola Ife",
+    name: "Ebenezer Olatudun",
     generation: "3rd",
     role: "Mother",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
   {
     id: 6,
-    name: "Akinlemibola Kunle",
+    name: "Reverend Isaiah Bosede",
     generation: "2nd",
     role: "Uncle",
     gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  },
-  {
-    id: 7,
-    name: "Akinlemibola Shade",
-    generation: "2nd",
-    role: "Aunt",
-    gender: "female",
-    image:
-      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  },
-  {
-    id: 8,
-    name: "Akinlemibola Fola",
-    generation: "4th",
-    role: "Teen",
-    gender: "female",
-    image:
-      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
-  },
-  {
-    id: 9,
-    name: "Akinlemibola Moyo",
-    generation: "4th",
-    role: "Teen",
-    gender: "male",
-    image:
-      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
   },
   // Add more image paths (make sure they exist in public/images or src/assets)
 ];

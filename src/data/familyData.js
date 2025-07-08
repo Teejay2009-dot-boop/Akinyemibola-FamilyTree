@@ -1,7 +1,7 @@
 export const familyMembers = [
   {
     id: 1,
-    name: "Akinlemibola Ade",
+    name: "James Igbekoyi",
     generation: "3rd",
     role: "Father",
     gender: "male",
@@ -17,10 +17,10 @@ export const familyMembers = [
 
   {
     id: 2,
-    name: "Akinlemibola Bola",
+    name: "Joseph Olaniyi- cheif Baipe ",
     generation: "2nd",
     role: "Grandmother",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -31,7 +31,7 @@ export const familyMembers = [
   },
   {
     id: 3,
-    name: "Akinlemibola Taiwo",
+    name: "John Oladele",
     generation: "4th",
     role: "Child",
     gender: "male",
@@ -45,10 +45,10 @@ export const familyMembers = [
   },
   {
     id: 4,
-    name: "Akinlemibola Kehinde",
+    name: "Jeremiah Oladiran",
     generation: "4th",
     role: "Child",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -59,10 +59,10 @@ export const familyMembers = [
   },
   {
     id: 5,
-    name: "Akinlemibola Ife",
+    name: "Ebenezer Olatudun",
     generation: "3rd",
     role: "Mother",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -73,7 +73,7 @@ export const familyMembers = [
   },
   {
     id: 6,
-    name: "Akinlemibola Kunle",
+    name: "Reverend Isaiah Bosede",
     generation: "2nd",
     role: "Uncle",
     gender: "male",
@@ -87,10 +87,10 @@ export const familyMembers = [
   },
   {
     id: 7,
-    name: "Akinlemibola Shade",
+    name: "Cheif Joshua Akinyosoye",
     generation: "2nd",
     role: "Aunt",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -101,10 +101,10 @@ export const familyMembers = [
   },
   {
     id: 8,
-    name: "Akinlemibola Fola",
+    name: "Joel Oladesu",
     generation: "4th",
     role: "Teen",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -115,7 +115,7 @@ export const familyMembers = [
   },
   {
     id: 9,
-    name: "Akinlemibola Moyo",
+    name: "Julius Olayele Olabode",
     generation: "4th",
     role: "Teen",
     gender: "male",
@@ -129,7 +129,7 @@ export const familyMembers = [
   },
   {
     id: 10,
-    name: "Akinlemibola Dapo",
+    name: "Jesse Akinlemibola",
     generation: "3rd",
     role: "Father",
     gender: "male",
@@ -143,10 +143,10 @@ export const familyMembers = [
   },
   {
     id: 11,
-    name: "Akinlemibola Zainab",
+    name: "Jones Olanegan",
     generation: "3rd",
     role: "Mother",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -157,7 +157,7 @@ export const familyMembers = [
   },
   {
     id: 12,
-    name: "Akinlemibola Wasiu",
+    name: "Japhet .F. Akinnufesi",
     generation: "1st",
     role: "Great Grandfather",
     gender: "male",
@@ -171,7 +171,7 @@ export const familyMembers = [
   },
   {
     id: 13,
-    name: "Akinlemibola Alake",
+    name: "Lawrence Olanifesu",
     generation: "1st",
     role: "Great Grandmother",
     gender: "female",
@@ -185,10 +185,10 @@ export const familyMembers = [
   },
   {
     id: 14,
-    name: "Akinlemibola Bisi",
+    name: "Johnson (Baba Akinyughu)",
     generation: "2nd",
     role: "Aunt",
-    gender: "female",
+    gender: "male",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -199,7 +199,7 @@ export const familyMembers = [
   },
   {
     id: 15,
-    name: "Akinlemibola Tunde",
+    name: "Jonathan",
     generation: "3rd",
     role: "Uncle",
     gender: "male",
@@ -213,10 +213,10 @@ export const familyMembers = [
   },
   {
     id: 16,
-    name: "Akinlemibola Jide",
+    name: "Oseleye",
     generation: "4th",
     role: "Child",
-    gender: "male",
+    gender: "female",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -227,7 +227,7 @@ export const familyMembers = [
   },
   {
     id: 17,
-    name: "Akinlemibola Temi",
+    name: "Osebola",
     generation: "4th",
     role: "Child",
     gender: "female",
@@ -241,10 +241,10 @@ export const familyMembers = [
   },
   {
     id: 18,
-    name: "Akinlemibola Yemi",
+    name: "Mrs Akinbobore",
     generation: "3rd",
     role: "Cousin",
-    gender: "male",
+    gender: "female",
     image:
       "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
     bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
@@ -255,7 +255,7 @@ export const familyMembers = [
   },
   {
     id: 19,
-    name: "Akinlemibola Lola",
+    name: "Omotomilola",
     generation: "3rd",
     role: "Cousin",
     gender: "female",
@@ -269,7 +269,63 @@ export const familyMembers = [
   },
   {
     id: 20,
-    name: "Akinlemibola Remi",
+    name: "Marian Iborensola",
+    generation: "4th",
+    role: "Teen",
+    gender: "female",
+    image:
+      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
+  },
+  {
+    id: 21,
+    name: "Menfolaku Mrs. Akinpeloye",
+    generation: "4th",
+    role: "Teen",
+    gender: "female",
+    image:
+      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
+  },
+  {
+    id: 22,
+    name: "Deborah Mofesota Adeyonu",
+    generation: "4th",
+    role: "Teen",
+    gender: "female",
+    image:
+      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
+  },
+  {
+    id: 23,
+    name: "Abigail Adetipe",
+    generation: "4th",
+    role: "Teen",
+    gender: "female",
+    image:
+      "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/graphicstock-silhouette-of-happy-father-having-fun-with-his-son_SRW6Mggobb_thumb.jpg",
+    bio: "Akinlemibola Ade is a dedicated father who values family traditions and is committed to preserving the legacy of the Akinlemibola lineage. He is known for his wisdom and leadership within the family.",
+    dob: "1970-04-15",
+
+    children: ["Tom", "Grace"],
+    siblings: ["Micheal", "Sandra"],
+  },
+  {
+    id: 24,
+    name: "Mama-Iya Baba Sokoti",
     generation: "4th",
     role: "Teen",
     gender: "female",
