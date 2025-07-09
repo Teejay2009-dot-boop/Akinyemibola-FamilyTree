@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <>
@@ -28,12 +30,16 @@ function Hero() {
           data-aos="fade-down"
           data-aos-duration="2000"
         >
-          <a href="/tree" className="btn btn-primary btn me-2 tree-btn">
-            View Family Tree
-          </a>
-          <a href="/lineage" className="btn btn-outline-secondary btn">
-            Explore Lineage
-          </a>
+          <Link to={"/tree"} className="">
+            <a href="/tree" className="btn btn-primary btn me-2 tree-btn">
+              View Family Tree
+            </a>
+          </Link>
+          <Link to={"/lineage"} className="">
+            <a href="/lineage" className="btn btn-outline-secondary btn">
+              Explore Lineage
+            </a>
+          </Link>
         </div>
       </div>
     </>
