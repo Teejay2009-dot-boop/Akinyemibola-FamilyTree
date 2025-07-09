@@ -11,7 +11,7 @@ import PersonDetails from "./pages/ProfileDetails.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";
 
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 import Aos from "aos";
 
 function App() {
