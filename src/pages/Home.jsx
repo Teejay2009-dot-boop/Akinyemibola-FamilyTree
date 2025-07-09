@@ -20,7 +20,7 @@ function Home() {
           <div className="row">
             <div className="col-lg-6" data-aos-delay="300">
               <img
-                src="https://laurenkaysims.com/wp-content/uploads/2023/09/IMG_0458-2.jpg"
+                src="https://img.freepik.com/premium-photo/black-family-portrait-forest-hug-with-man-relax-together-love-relationship-people-senior-parents-son-embrace-support-outdoor-bonding-travel-nigeria-peace_590464-479557.jpg"
                 alt=""
                 className="img-fluid "
                 style={{ height: "500px", width: "100%", objectFit: "cover" }}
