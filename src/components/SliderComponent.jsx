@@ -118,12 +118,16 @@ function ImageSlider() {
   };
 
   return (
-    <div className="container py-5">
+    <div
+      className="container py-5"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+    >
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="px-2 ">
             <div
-              className="slider-container"
+              className="slider-container img-fluid"
               style={{
                 backgroundImage: `url(${img.image})`,
                 backgroundSize: "cover",

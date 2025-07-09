@@ -5,7 +5,11 @@ export default function NotFoundPage() {
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-center align-items-center vh-100 bg-light text-center p-4">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        className="d-flex justify-content-center align-items-center vh-100 bg-light text-center p-4"
+      >
         <div>
           <h1 className="display-1 fw-bold text-danger">404</h1>
           <p className="fs-4">😕 Oops! This page doesn't exist.</p>

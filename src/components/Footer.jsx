@@ -1,6 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-light pt-5 pb-3 mt-5">
+    <footer
+      className="bg-dark text-light pt-5 pb-3 mt-5"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div className="container">
         <div className="row text-center text-md-start">
           {/* About Section */}

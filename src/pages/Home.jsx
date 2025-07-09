@@ -2,6 +2,7 @@ import Navbar from "../components/NavBar";
 import Hero from "../components/hero";
 import ImageSlider from "../components/SliderComponent";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -10,10 +11,14 @@ function Home() {
       <Hero />
 
       <section className="bg-light py-5">
-        <div className="container text-center">
+        <div
+          className="container text-center"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <h1 className="mb-3 about-head">The Akinlemibola Family</h1>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos-delay="300">
               <img
                 src="https://laurenkaysims.com/wp-content/uploads/2023/09/IMG_0458-2.jpg"
                 alt=""
@@ -21,8 +26,12 @@ function Home() {
                 style={{ height: "500px", width: "100%", objectFit: "cover" }}
               />
             </div>
-            <div className="col-lg-6">
-              <h1 className="fs-1 fw-bold text-start">About Us</h1>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              <h1 className="fs-1 fw-bold text-start pt-3">About Us</h1>
               <p className="text-start">
                 The Akinlemibola family is a lineage deeply rooted in tradition,
                 strength, and unity. From the earliest known matriarch, Iya Agba
@@ -55,6 +64,8 @@ function Home() {
         <h2 className="text-center ">Family Moments</h2>
         <ImageSlider />
       </section>
+
+      <Contact />
 
       <Footer />
     </>

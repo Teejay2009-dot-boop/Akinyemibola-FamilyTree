@@ -3,7 +3,7 @@ import Profiles from "../pages/Profiles";
 import PersonDetails from "../pages/ProfileDetails";
 function ProfileCard({ image, role, generation, name, gender, id }) {
   return (
-    <div className="profile-card">
+    <div data-aos="fade-up" data-aos-duration="1500">
       <img src={image} alt="Profile" style={{ width: "100%" }} />
       <h2>{name}</h2>
       <p>

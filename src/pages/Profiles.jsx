@@ -26,10 +26,20 @@ function Profiles() {
     <>
       <Navbar />
       <div className="container py-5">
-        <h2 className="text-center mb-4">Meet the Akinlemibola Family</h2>
+        <h2
+          className="text-center mb-4"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          Meet the Akinlemibola Family
+        </h2>
 
         {/* Search Input */}
-        <div className="mb-3 text-center">
+        <div
+          className="mb-3 text-center"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <input
             type="text"
             placeholder="Search by name..."
@@ -40,7 +50,11 @@ function Profiles() {
         </div>
 
         {/* Gender Filter Buttons */}
-        <div className="mb-4 text-center">
+        <div
+          className="mb-4 text-center"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <button
             className={`btn me-2 ${
               genderFilter === "all" ? "btn-dark" : "btn-outline-dark"
@@ -72,7 +86,13 @@ function Profiles() {
         <div className="row">
           {filteredMembers.length > 0 ? (
             filteredMembers.map((member) => (
-              <div className="col-md-4 mb-4" key={member.id}>
+              <div
+                className="col-md-4 mb-4 "
+                key={member.id}
+                data-aos={member.id % 2 === 0 ? "zoom-in-up" : "fade-left"}
+                data-aos-delay={member.id * 100}
+                data-aos-duration="800"
+              >
                 <ProfileCard
                   name={member.name}
                   image={member.image}
@@ -84,8 +104,21 @@ function Profiles() {
               </div>
             ))
           ) : (
-            <div className="text-center">
-              <p>No family members found.</p>
+            <div
+              className="text-center mt-5"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <img
+                src="/src/assets/NotFound.svg" // Placeholder image
+                alt="Not found"
+                className="img-fluid mb-3"
+                style={{ maxWidth: "300px" }}
+              />
+              <h4 className="text-muted">No family member found</h4>
+              <p className="text-secondary">
+                Try searching with a different name or check the spelling.
+              </p>
             </div>
           )}
         </div>

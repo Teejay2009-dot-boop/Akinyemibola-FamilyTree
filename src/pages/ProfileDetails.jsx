@@ -35,7 +35,11 @@ export default function PersonDetails() {
     <>
       <Navbar />
 
-      <div className="container pt-5">
+      <div
+        className="container pt-5"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <div className=" ">
           <div className="row g-0">
             <div className="col-md-4 text-center p-4">
