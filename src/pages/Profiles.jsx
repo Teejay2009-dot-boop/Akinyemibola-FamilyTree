@@ -4,6 +4,7 @@ import { familyMembers } from "../data/familyData.js"; // Importing family membe
 import ProfileCard from "../components/ProfileStructure";
 
 import Navbar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 function Profiles() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -123,6 +124,8 @@ function Profiles() {
           )}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }
