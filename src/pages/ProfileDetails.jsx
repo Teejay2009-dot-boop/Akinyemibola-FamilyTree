@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { familyMembers } from "../data/familyData"; // where your dummy data is
 import Navbar from "../components/NavBar";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function PersonDetails() {
   const { id } = useParams();
@@ -34,41 +35,54 @@ export default function PersonDetails() {
     <>
       <Navbar />
 
-      <section className="pt-5">
-        <h1 className="text-center">Meet {person.name}</h1>
-
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
+      <div className="container pt-5">
+        <div className=" ">
+          <div className="row g-0">
+            <div className="col-md-4 text-center p-4">
               <img
-                src={person.image}
-                alt=""
-                className="img-fluid "
-                style={{ width: "100%", height: "70vh", objectFit: "cover" }}
+                src={person.image || "/images/default-profile.png"}
+                className="img-fluid rounded-circle mb-3"
+                alt={person.name}
+                style={{ width: "200px", height: "200px", objectFit: "cover" }}
               />
+              <h3 className="fw-bold">{person.name}</h3>
+              <p className="text-muted">{person.gender}</p>
             </div>
-            <div className="col-lg-6">
-              <div className="container details-text">
-                <h2>{person.name}</h2>
-                <p className="fs-5 details-paragraph">
-                  <strong>Gender:</strong> {person.gender}
-                </p>
-                <p className="fs-5 details-paragraph">
-                  <strong>Date of Birth:</strong> {person.dob}
-                </p>
-                <p className="fs-5 details-paragraph">
-                  <strong>Short Bio:</strong> {person.bio}
-                </p>
-                <p className="fs-5 details-paragraph">
-                  <strong>Children:</strong>{" "}
-                  {person.children?.join(", ") || "None"}
-                </p>
-                <p className="fs-5 details-paragraph">
-                  <strong>Siblings:</strong>{" "}
-                  {person.siblings?.join(", ") || "None"}
-                </p>
+
+            <div className="col-md-8 p-4">
+              <h5 className="mb-3">📝 Bio</h5>
+              <p>{person.bio || "No biography available."}</p>
+
+              <hr />
+
+              <div className="row">
+                <div className="col-sm-6">
+                  <strong>📅 Date of Birth:</strong>
+                  <p>{person.dob || "Unknown"}</p>
+                </div>
+                <div className="col-sm-6">
+                  <strong>👶 Children:</strong>
+                  <ul>
+                    {person.children?.length ? (
+                      person.children.map((child, i) => (
+                        <li key={i}>{child}</li>
+                      ))
+                    ) : (
+                      <li>None listed</li>
+                    )}
+                  </ul>
+                </div>
+                <div className="col-sm-6 mt-3">
+                  <strong>👥 Siblings:</strong>
+                  <ul>
+                    {person.siblings?.length ? (
+                      person.siblings.map((sib, i) => <li key={i}>{sib}</li>)
+                    ) : (
+                      <li>None listed</li>
+                    )}
+                  </ul>
+                </div>
               </div>
-              ;
               <div className="mt-5">
                 <button className="profileBtn2">
                   <Link
@@ -83,7 +97,9 @@ export default function PersonDetails() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <Footer />
     </>
   );
 }
