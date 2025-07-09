@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer
@@ -22,24 +24,38 @@ export default function Footer() {
             <h5 className="fw-bold mb-3">Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-light text-decoration-none">
-                  Home
-                </a>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <a
+                    href="/"
+                    className="text-light text-decoration-none footer-links"
+                  >
+                    Home
+                  </a>
+                </Link>
               </li>
               <li>
-                <a href="/profiles" className="text-light text-decoration-none">
-                  Family Members
-                </a>
+                <Link to="/profiles" style={{ textDecoration: "none" }}>
+                  <a
+                    href="/"
+                    className="text-light text-decoration-none footer-links"
+                  >
+                    Family Members
+                  </a>
+                </Link>
               </li>
               <li>
-                <a href="/tree" className="text-light text-decoration-none">
-                  Family Tree
-                </a>
+                <Link to="/tree" style={{ textDecoration: "none" }}>
+                  <a href="/tree" className="text-light  footer-links">
+                    Family Tree
+                  </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-light text-decoration-none">
-                  Contact
-                </a>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <a href="/" className="text-light text-decoration-none">
+                    Contact
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

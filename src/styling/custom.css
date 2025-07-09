@@ -134,3 +134,12 @@ body {
   background-color: hsl(36, 45%, 40%);
   color: white;
 }
+
+.footer-links {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+.footer-links:hover {
+  color: var(--secondary-color);
+}
