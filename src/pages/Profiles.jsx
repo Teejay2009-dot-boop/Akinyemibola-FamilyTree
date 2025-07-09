@@ -110,7 +110,7 @@ function Profiles() {
               data-aos-duration="1500"
             >
               <img
-                src="/src/assets/NotFound.svg" // Placeholder image
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrthX2Ntj5-RaUUQEYklUitLWpmWhhdMCk7A&s" // Placeholder image
                 alt="Not found"
                 className="img-fluid mb-3"
                 style={{ maxWidth: "300px" }}
