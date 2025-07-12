@@ -297,7 +297,7 @@ export const familyMembers = [
   },
   {
     id: 22,
-    name: "Deborah Mofesota Adeyonu",
+    name: "Deborah Mofesola Adeyonu",
     generation: "4th",
     role: "Teen",
     gender: "female",

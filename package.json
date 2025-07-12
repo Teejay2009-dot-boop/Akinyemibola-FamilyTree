@@ -17,6 +17,7 @@
     "react-organizational-chart": "^2.2.1",
     "react-router-dom": "^7.6.3",
     "react-slick": "^0.30.3",
+    "react-zoom-pan-pinch": "^3.7.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
